@@ -1,0 +1,22 @@
+{
+    "collections":[
+        
+        {
+            "name": "SAND AND TAN",
+            "description": "Be decent with tan and earth colors. \n T-Shirts, Hoodies, and Pants",
+            "date": "15.04.2022",
+            "img": "img/collection/Collection02.jpg",
+            "tag": "Comming soon!",
+            "illustration": "img/collection/Kaktus.svg"
+        },
+
+        {
+            "name": "DEEP SEA",
+            "description": "Feel the breze of white and blue, get salty. \n T-Shirts, Hoodies, and Pants",
+            "date": "15.04.2022",
+            "img": "img/collection/Collection03.jpg",
+            "tag": "Sale!",
+            "illustration": "img/collection/Wellen.svg"
+        }
+    ]
+}

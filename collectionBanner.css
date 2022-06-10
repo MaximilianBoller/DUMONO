@@ -1,0 +1,147 @@
+.collection-baner{
+    border: solid red;
+    display: grid;
+    grid-template-rows: 3;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 2rem;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    justify-items: center;
+    position: relative;
+}
+
+
+.banner-text{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-items: center;
+
+    border-radius: 1rem;
+    background: rgba(255, 255, 255,  0.5);
+
+    grid-column: 2;
+    grid-row: 2;
+
+    z-index: 1;
+
+}
+
+.banner-description{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.15px;
+
+
+    padding: .5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.banner-name{
+    font-weight: 500;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+
+    padding: .5rem;
+    text-align: center;
+}
+
+.banner-image{
+    width: 100%;
+    height: auto;    
+}
+
+.carrusel-counter{
+    width: fit-content;
+    text-align: left;
+
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.banner-tag{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.15px;
+
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+
+    padding: .5rem 1rem .5rem 1rem;
+    background: lightcoral;
+    margin-right: 0;
+    color: white;
+}
+
+#banner-carrusel-back{
+    grid-column: 1;
+    grid-row: 2;
+    z-index: 1;
+}
+#banner-carrusel-forward{
+    grid-column: 3;
+    grid-row: 2;
+    z-index: 1;
+}
+
+.banner-illustration{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: .4;
+
+    z-index: 0;
+
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (min-width: 900px) {
+    .banner{
+        grid-template-columns: auto 1fr auto;
+        height: fit-content;
+
+    }
+
+    .banner-text{
+        align-items:flex-start;
+        margin-left: 1rem;
+        width: calc(100% - 4rem);
+
+    }
+
+    .banner-description{
+        text-align: left;
+    }
+
+    .banner-name{
+        text-align: left;
+    }
+
+    .banner-illustration{
+        height: 100%;
+        width: 50%;
+        bottom: 0;
+        right: 0;
+    }
+
+
+}

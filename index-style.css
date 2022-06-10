@@ -1,0 +1,73 @@
+body,
+html{
+    margin: 0;
+    background-color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 900px) {
+    .CubeEditor{
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: none;
+    }
+
+    .heroSection{
+        border: solid red 1px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: fit-content;
+    }
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    background-color: white;
+    border: solid  lightgray 1px;
+    /*filter: drop-shadow(0rem 1rem 1rem rgba(0,0,0,20%));*/
+}
+
+.logo{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: .5rem;
+    padding: .5rem;
+    border: 1px lightgray solid;
+}
+
+.schriftzug{
+    height: 1.5rem;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.collectionSection{
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.productSection{
+    padding: .5rem;
+    border: solid  lightgray 1px;
+}
+
+.designItYourselfSection{
+    padding: .5rem;
+    border: solid  lightgray 1px;
+}
+
+
+.contactSection{
+    padding: .5rem;
+    border: solid  lightgray 1px;
+}
+
+.heroImage{
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+}
